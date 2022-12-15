@@ -11,7 +11,7 @@
         "client_secret": "{{user `client_secret`}}",
 		"subscription_id": "{{user `subscription_id`}}",
 
-		"managed_image_resource_group_name": "ODL-clouddevops-218348",
+		"managed_image_resource_group_name": "ODL-clouddevops-218472",
 		"managed_image_name": "myUbuntuPackerImage",
 
 		"os_type": "Linux",
@@ -33,6 +33,5 @@
 		],
 		"inline_shebang": "/bin/sh -x",
 		"type": "shell"
-
 	}]
 }

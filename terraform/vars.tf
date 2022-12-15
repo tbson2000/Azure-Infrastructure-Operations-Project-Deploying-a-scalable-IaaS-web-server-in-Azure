@@ -11,7 +11,7 @@ variable "image_id" {
   description = "id of vm image from packer"
   type        = string
 
-  default = "/subscriptions/80ae9245-22ea-4f16-a42f-d5cebd7aac99/resourceGroups/ODL-clouddevops-218348/providers/Microsoft.Compute/images/myUbuntuPackerImage"
+  default = "/subscriptions/9264ae45-f6c6-47e0-9199-fa1b3e14415e/resourceGroups/ODL-clouddevops-218472/providers/Microsoft.Compute/images/myUbuntuPackerImage"
 }
 
 variable "vm_num" {

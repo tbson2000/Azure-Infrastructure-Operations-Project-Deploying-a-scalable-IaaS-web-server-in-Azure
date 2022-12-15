@@ -18,5 +18,5 @@ variable "vm_num" {
   description = "Number of virtual machines for deployment"
   type        = number
 
-  default = 1
+  default = 3
 }

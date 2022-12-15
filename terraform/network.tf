@@ -38,3 +38,9 @@ resource "azurerm_lb_backend_address_pool" "ulb_bap" {
   loadbalancer_id = azurerm_lb.ulb.id
   name            = "UdacityLBBackendAddressPool"
 }
+
+resource "azurerm_network_interface_backend_address_pool_association" "unibapa" {
+  network_interface_id    = azurerm_network_interface.unic.id
+  ip_configuration_name   = "PublicIPAddress"
+  backend_address_pool_id = azurerm_lb_backend_address_pool.ulb_bap.id
+}
